@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: white;
+}
+
+.border-social-icon {
+  border-radius: 63% 37% 64% 36% / 61% 39% 61% 39%;
+}
+
+.bg-hero {
+  border-radius: 56% 44% 45% 55% / 64% 40% 60% 36%;
+}
+
+.border-what-we-do {
+  border-radius: 47% 53% 56% 44% / 50% 38% 62% 50%;
+}
+
+.active {
+  font-weight: bold;
+  color: #331b3b;
+  border-bottom: 3px solid #fdc221;
+  border-image: linear-gradient(to right, #fdc221 50%, transparent 50%) 100% 1;
+}
+
+.nav-item-hover:hover {
+  font-weight: bold;
+  border-bottom: 3px solid #fdc221;
+  border-image: linear-gradient(to right, #fdc221 50%, transparent 50%) 100% 1;
+}
